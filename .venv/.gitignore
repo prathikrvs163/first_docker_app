@@ -1,0 +1,20 @@
+*# Ignore Python dependencies
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment variables
+.env
+
+# Ignore Docker-related files
+*.log
+*.pid
+*.swp
+docker-compose.override.yml
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore credentials (if any)
+config.json
+secrets.json
